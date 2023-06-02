@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>proyecto</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <div class="">
+        <img src="img/banner.jpg" alt="" class="d-block w-100">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="100px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active p-3 mb-2 bg-opacity-75 bg-white text-primary" aria-current="page" href="principal.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle p-3 mb-2 bg-opacity-75 bg-white text-primary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">registro</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item text-primary" href="registrar_usuario.html">Registro de Usuario</a></li>
+                <li><a class="dropdown-item text-primary" href="registro_profesional.html">Registro de Profesional</a></li>
+                <li><a class="dropdown-item text-primary" href="registro_paciente.html">registro de Paciente</a></li>
+                <li><a class="dropdown-item text-primary" href="registro_historial.html">registro de Historial</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-3 mb-2 bg-opacity-75 bg-white text-primary" href="#" tabindex="-1" aria-disabled="true">Informacion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-3 mb-2 bg-opacity-75 bg-white text-primary" href="#" tabindex="-1" aria-disabled="true">Especialidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-3 mb-2 bg-opacity-75 bg-white text-primary" href="#" tabindex="-1" aria-disabled="true">Consultas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-3 mb-2 bg-opacity-75 bg-white text-primary" href="#" tabindex="-1" aria-disabled="true">Tratamientos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-3 mb-2 bg-opacity-75 bg-white text-primary" href="index.html" tabindex="-1" aria-disabled="true">Salir</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<div class="login-page bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+              <h3 class="mb-3">Registro del paciente</h3>
+                <div class="bg-white shadow rounded">                        
+                            <div class="form-left h-100 py-5 px-5">
+                                <form action="" class="row g-4">
+                                    <h4>Datos personales del paciente</h4>
+                                        <div class="col-12">                                             
+                                            <div class="input-group">
+                                                <div class="input-group-text col-4">DNI</div>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Foto</div>
+                                                <input type="file" class="form-file" id="customFile">
+                                              </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Nombres</i></div>
+                                              <input type="text" class="form-control" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Apellidos</div>
+                                              <input type="text" class="form-control" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Fecha de nacimiento</div>
+                                              <input type="date" class="form-control" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Sexo</div>
+                                              <select class="form-select" aria-label="Default select example">
+                                                <option selected>seleccion</option>  
+                                                <option value="1">Masculino</option>
+                                                <option value="2">Femenino</option>
+                                                </select>
+
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Nombre del representante</div>
+                                              <input type="text" class="form-control" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">telefono</div>
+                                              <input type="tel" class="form-control" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Sala</div>
+                                              <select class="form-select" aria-label="Default select example">
+                                                <option selected>seleccion</option>  
+                                                <option value="1">Emergencia</option>
+                                                <option value="2">Sala A</option>
+                                                <option value="1">Laboratorio</option>
+                                                <option value="2">Rayos x</option>
+                                                <option value="1">Hospital</option>
+                                                </select>
+
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Direccion</div>
+                                              <textarea class="form-control" name="" id="" rows="1"></textarea>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Pais</div>
+                                              <select class="form-select" aria-label="Default select example">
+                                                <option selected>seleccion</option>  
+                                                <option value="1">Colombia</option>
+                                                <option value="2">Venezuela</option>
+                                                <option value="1">Ecuador</option>
+                                                <option value="2">Perú</option>
+                                                <option value="1">Panamá</option>
+                                                <option value="2">Brasil</option>
+                                                </select>
+
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Departamento</i></div>
+                                              <input type="text" class="form-control" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Provincia</div>
+                                              <input type="text" class="form-control" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Distrito</div>
+                                              <input type="text" class="form-control" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Estado Civil</div>
+                                              <select class="form-select" aria-label="Default select example">
+                                                <option selected>seleccion</option>  
+                                                <option value="1">Soltero</option>
+                                                <option value="2">Casado</option>
+                                                <option value="1">Viudo</option>
+                                                <option value="2">Unión Libre</option>
+                                                <option value="1">Separado</option>
+                                                <option value="2">Divorciado</option>
+                                                </select>
+
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Emergencia</div>
+                                              <textarea class="form-control" name="" id="" rows="1"></textarea>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Estado Civil</div>
+                                              <select class="form-select" aria-label="Default select example">
+                                                <option selected>seleccion</option>  
+                                                <option value="1">A+</option>
+                                                <option value="2">A-</option>
+                                                <option value="1">B+</option>
+                                                <option value="2">B-</option>
+                                                <option value="1">AB+</option>
+                                                <option value="2">AB-</option>
+                                                <option value="1">O+</option>
+                                                <option value="2">O-</option>
+                                                </select>
+
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">VIH</div>
+                                              <select class="form-select" aria-label="Default select example">
+                                                <option selected>seleccion</option>  
+                                                <option value="1">SI</option>
+                                                <option value="2">NO</option>
+                                                </select>
+
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Ocupacion</div>
+                                              <input type="text" class="form-control" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Peso</div>
+                                              <input type="text" class="form-control" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Talla</div>
+                                              <input type="text" class="form-control" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Alerrgico</div>
+                                              <textarea class="form-control" name="" id="" rows="3"></textarea>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Medicamento Que toma</div>
+                                              <textarea class="form-control" name="" id="" rows="3"></textarea>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">                                             
+                                          <div class="input-group">
+                                              <div class="input-group-text col-4">Enfermedad Que Tiene</div>
+                                                <textarea class="form-control" name="" id="" rows="3"></textarea>
+                                              </div>
+                                          </div>
+                                        <div class="col-12">
+                                          <div class="input-group">
+                                            <div class="col-8">
+                                              <button type="submit" class="btn btn-primary px-4 float-end mt-4">Registrar</button>
+                                              <button type="submit" class="btn btn-primary px-4 float-end me-2 mt-4">limpiar</button>
+                                          </div>
+                                          </div>
+                                        </div>
+
+                                </form>
+                            </div>                                                
+                </div>
+                <p class="text-end text-secondary mt-3">&copy; jader andres barboza gil</p>
+            </div>
+        </div>                
+    </div>
+    
+</div>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
